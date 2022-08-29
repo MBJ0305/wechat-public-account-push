@@ -8,7 +8,7 @@ export const config = {
     // 公众号APP_SECRET
     APP_SECRET: "8dcaf23042eb2aad618152257ef1022f",
     // 模板消息id
-    TEMPLATE_ID: "xGwMA3vjgnh4f3HP5lX67qdYUDQxFVAUNAMRbR4a1zg",
+    TEMPLATE_ID: "	VkmU3sSXhviGiZkUlMM0YN3OFCdMvjcYqf0Hqh-7gLY",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
     USERS: ["ot-O76fXOAB6Oiq1JdnpUQVZQZRY"],
      
@@ -35,13 +35,15 @@ export const config = {
 
     // 在一起的日子，格式同上
     LOVE_DATE: "2018-07-07",
-    }
+    // 结婚纪念日
+    MARRY_DATE: "2029-07-07",
+
 
     /** 好文节选 */
 
     // 好文节选的内容类型
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-    LITERARY_PREFERENCE: "顺利 遇你 成家 立业；不顺利 立业 遇你 成家"
+    LITERARY_PREFERENCE: ""
 
 
     }
@@ -52,6 +54,7 @@ export const config = {
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
 // 今天是我们恋爱的第{{love_day.DATA}}天
+// 今天是我们结婚的第{{marry_day.DATA}}天
 // {{birthday_message.DATA}}
 
 // {{note_en.DATA}}  
