@@ -35,7 +35,7 @@ export const config = {
 
     // 在一起的日子，格式同上
     LOVE_DATE: "2018-07-07",
-
+    }
 
     /** 好文节选 */
 
